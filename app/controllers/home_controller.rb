@@ -3,5 +3,6 @@ class HomeController < ApplicationController
   end
 
   def write
+    @name = params
   end
 end
