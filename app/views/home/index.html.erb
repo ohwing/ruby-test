@@ -1,4 +1,4 @@
-<% @db_data.each do |data| %>
+<% @db_data.reverse.each do |data| %>
     <p><%=data.name%>: <%=data.content%></p>
     <hr>
 <%end%>
